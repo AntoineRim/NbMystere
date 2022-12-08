@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:lightblue;
+}
+
+#jouer{
+  position: absolute;
+  height : 150px;
+  width: 150px;
+  left : 300px;
+  top : 300px;
+  background-color: beige;
+  border-style: double;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+button {
+  height : 100px;
+  width: 100px;
+  background-color: beige;
+  border-style: double;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+input {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  border-style: dotted;
+  border-width: thin;
+}
+
+span{
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+#divmere {
+  position : absolute;
+  left : 35%;
+  top : 15%;
+  text-align: center;
+}
+
+#divprincipale {
+  position : absolute;
+  left : 20%;
+  top : 40%;
+}
+
+#divboutons {
+  position : absolute;
+  text-align : center;
+  width : 400px;
+  top : 200px;
+  right : 50px;
+  display: inline-block;
+}
+
+table {
+  position: absolute;
+  left : 600px;
+  bottom : 2px;
+  border-style: solid;
+  border-color: darkkhaki;
+}
+
+td{
+  width:60px;
+  height:35px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: honeydew;
+  border-style:dashed;
+  border-color:ghostwhite;
+}
